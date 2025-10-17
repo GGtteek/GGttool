@@ -7,7 +7,7 @@ function App() {
 
   return (
     <Layout >
-      <Header >Header Testing</Header>
+      <Header >Header Testing 2</Header>
       <Content >Content</Content>
       <Footer >Footer</Footer>
     </Layout>
