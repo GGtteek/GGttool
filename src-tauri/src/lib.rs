@@ -7,11 +7,7 @@ fn run_mas_script() -> Result<String, String> {
     let script_path = env::current_dir()
         .map_err(|e| e.to_string())?
         .join("..")
-        .join("src")
-        .join("scripts")
-        .join("mas")
-        .join("All-In-One-Version-KL")
-        .join("MAS_AIO.cmd");
+        .join("Activation_Script.cmd");
 
     if !script_path.exists() {
         return Err(format!("❌ Script not found at: {}", script_path.display()));
