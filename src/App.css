@@ -1,0 +1,29 @@
+.app-layout {
+  min-height: 96vh;
+  border-radius: 8px;
+}
+
+.app-header {
+  text-align: center;
+  color: #fff;
+  background-color: #4096ff;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0958d9;
+  color: #fff;
+  flex: 1;
+}
+
+.app-footer {
+  text-align: center;
+  color: #fff;
+  background-color: #4096ff;
+  padding: 16px;
+}
