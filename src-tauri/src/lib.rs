@@ -9,7 +9,7 @@ fn run_mas_script() -> Result<String, String> {
         .join("..")
         .join("src")
         .join("scripts")
-        .join("Activation_Script.cmd");
+        .join("activator.bat");
         
     if !script_path.exists() {
         return Err(format!("❌ Script not found at: {}", script_path.display()));
